@@ -72,13 +72,44 @@ a{
     margin-left: auto;
     margin-right: auto;
     max-width: 1280px;
-    margin-top: 100px;
     background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
 }
   .hero-mainText{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
-  }
+}
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.img-container{
+    background-color: #32363b;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 500px;
+    height: 250px;
+}
 
-  
+
+
+.signUp-button{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 5px;
+    width: 120px;
+    padding: 0.5rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.hero-secondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+}
